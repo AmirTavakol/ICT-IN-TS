@@ -4,6 +4,7 @@ from datetime import datetime as dt
 import time
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 
 
 #3 lines of code to get the database ready
