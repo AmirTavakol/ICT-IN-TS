@@ -126,6 +126,7 @@ def plot_n(city_dict):
         axs[i].legend(loc='upper left')
         axs[i].set_title(x, fontsize=14)
         axs[i].set_xlabel('Dates', fontsize=12)
+        axs[i].set_xticklabels(labels=date_ticks, rotation=45, ha='right')
         axs[i].set_ylabel(' Number of booked / parked cars ', fontsize=12)
         axs[i].grid(True, which='both')
         i=i+1
