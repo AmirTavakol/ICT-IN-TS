@@ -92,17 +92,17 @@ fig.subplots_adjust(top=0.825,
 
 axs[0].grid(True, which='both')
 axs[0].set_xlabel('Walking Duration [min]')
-axs[0].set_ylabel('Number ofrentals')
+axs[0].set_ylabel('Number of rentals')
 axs[0].bar(walk_df['_id'].values*5-2.5, walk_df['count'].values, width=5)
 
 axs[1].grid(True, which='both')
 axs[1].set_xlabel('Driving Duration [min]')
-axs[1].set_ylabel('Number ofrentals')
+axs[1].set_ylabel('Number of rentals')
 axs[1].bar(drive_df['_id'].values*5-2.5, drive_df['count'].values, width=5)
 
 axs[2].grid(True, which='both')
 axs[2].set_xlabel('Public Transport Duration [min]')
-axs[2].set_ylabel('Number ofrentals')
+axs[2].set_ylabel('Number of rentals')
 axs[2].bar(bus_df['_id'].values*5-2.5, bus_df['count'].values, width=5)
 
 plt.show()
